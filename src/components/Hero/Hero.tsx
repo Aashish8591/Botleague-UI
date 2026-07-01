@@ -1,10 +1,5 @@
 import heroBg from "../../assets/images/hero-bg.png";
 
-const navLinks = [
-  { name: "Events", id: "events" },
-  { name: "Ranks", id: "register" },
-];
-
 function Hero() {
     const handleScroll = (id: string) => {
     const section = document.getElementById(id);
